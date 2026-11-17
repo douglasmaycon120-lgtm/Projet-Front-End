@@ -4,7 +4,7 @@ CRM responsivo para gestão de clientes, pedidos e histórico de atendimento. De
 
 ## Repositório
 
-**Link do GitHub:** [https://github.com/SEU-USUARIO/nexo-crm](https://github.com/SEU-USUARIO/nexo-crm) — substitua pelo endereço real do repositório criado para esta entrega.
+**Link do GitHub:** [https://github.com/douglasmaycon120-lgtm/Projet-Front-End](https://github.com/douglasmaycon120-lgtm/Projet-Front-End)
 
 ## Requisitos
 
@@ -35,4 +35,4 @@ Execute `npm run build`. Os arquivos compilados serão gerados em `dist/`.
 
 ## Entrega
 
-Gere o ZIP a partir desta pasta, excluindo `node_modules/` e `dist/`. Antes de enviar, substitua o texto do link do GitHub acima pela URL do repositório.
+Gere o ZIP a partir desta pasta, excluindo `node_modules/` e `dist/`.
