@@ -6,7 +6,7 @@ import { useAuth } from './AuthContext'
 import type { Atendimento, Canal, Cliente, ItemPedido, Pedido, StatusPedido } from './types'
 import { atendimentoDate, dateLabel, money, pedidoClienteId, pedidoDate, pedidoTotal, seloCliente, topClientes, totalComprado } from './utils'
 
-const channels: Canal[] = ['telefone', 'e-mail', 'WhatsApp', 'presencial']
+const channels: Canal[] = ['telefone', 'email', 'whatsapp', 'presencial']
 const statuses: StatusPedido[] = ['aberto', 'pago', 'cancelado']
 const clientName = (client: Cliente) => client.nome || 'Cliente sem nome'
 const userLabel = (user: { username?: string; nome?: string; name?: string; email?: string } | null) => user?.nome || user?.name || user?.username || user?.email || 'Atendente'
@@ -69,7 +69,7 @@ function AppShell({ children }: { children: ReactNode }) {
       <div className="nav-caption">MENU PRINCIPAL</div>
       <nav className="side-nav">
         {nav.map(({ to, label, icon: Icon, end }) => <NavLink key={to} to={to} end={end} onClick={() => setMenuOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}><Icon size={18} /><span>{label}</span>{label === 'Clientes' && <span className="nav-count">{totalClientes}</span>}</NavLink>)}
-        <NavLink to="/clientes/novo" onClick={() => setMenuOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}><Plus size={18} /><span>Novo cliente</span></NavLink>
+        <NavLink to="/clientes/novo" onClick={() => setMenuOpen(false) } className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}><Plus size={18} /><span>Novo cliente</span></NavLink>
       </nav>
       <div className="sidebar-bottom"><div className="support-card"><div className="support-icon"><MessageCircle size={18} /></div><strong>Precisa de ajuda?</strong><span>Seu CRM, organizado em um só lugar.</span></div><div className="profile-row"><div className="avatar">{userLabel(user).slice(0, 1).toUpperCase()}</div><div className="profile-info"><strong>{userLabel(user)}</strong><span>Atendente</span></div><button className="icon-button logout-button" title="Sair" aria-label="Sair" onClick={exit}><LogOut size={17} /></button></div></div>
     </aside>

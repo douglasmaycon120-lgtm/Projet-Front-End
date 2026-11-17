@@ -22,7 +22,7 @@ export type Pedido = {
   createdAt?: string
   [key: string]: unknown
 }
-export type Canal = 'telefone' | 'e-mail' | 'WhatsApp' | 'presencial'
+export type Canal = 'telefone' | 'email' | 'whatsapp' | 'presencial'
 export type Atendimento = {
   id: string | number
   titulo: string

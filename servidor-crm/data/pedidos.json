@@ -1,0 +1,558 @@
+[
+  {
+    "id": 1,
+    "clienteId": 1,
+    "data": "2026-11-03",
+    "status": "aberto",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Impressora multifuncional",
+        "preco": 679.0,
+        "quantidade": 5
+      },
+      {
+        "id": 2,
+        "titulo": "Pen drive 64 GB",
+        "preco": 42.0,
+        "quantidade": 5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "clienteId": 1,
+    "data": "2026-09-28",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Kit canetas coloridas",
+        "preco": 16.8,
+        "quantidade": 3
+      },
+      {
+        "id": 2,
+        "titulo": "Impressora multifuncional",
+        "preco": 679.0,
+        "quantidade": 3
+      },
+      {
+        "id": 3,
+        "titulo": "Camiseta personalizada",
+        "preco": 39.9,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "clienteId": 1,
+    "data": "2026-10-14",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Licença de software (anual)",
+        "preco": 349.0,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "clienteId": 1,
+    "data": "2026-11-03",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Mouse sem fio",
+        "preco": 59.9,
+        "quantidade": 5
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "clienteId": 2,
+    "data": "2026-10-29",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Camiseta personalizada",
+        "preco": 39.9,
+        "quantidade": 1
+      },
+      {
+        "id": 2,
+        "titulo": "Suporte para notebook",
+        "preco": 74.9,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "clienteId": 2,
+    "data": "2026-08-19",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Resma de papel A4",
+        "preco": 31.5,
+        "quantidade": 1
+      },
+      {
+        "id": 2,
+        "titulo": "Webcam Full HD",
+        "preco": 199.9,
+        "quantidade": 1
+      },
+      {
+        "id": 3,
+        "titulo": "Camiseta personalizada",
+        "preco": 39.9,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "clienteId": 2,
+    "data": "2026-10-06",
+    "status": "aberto",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Caneca de porcelana",
+        "preco": 24.5,
+        "quantidade": 1
+      },
+      {
+        "id": 2,
+        "titulo": "Webcam Full HD",
+        "preco": 199.9,
+        "quantidade": 2
+      },
+      {
+        "id": 3,
+        "titulo": "Licença de software (anual)",
+        "preco": 349.0,
+        "quantidade": 5
+      },
+      {
+        "id": 4,
+        "titulo": "Cabo HDMI 2 m",
+        "preco": 22.0,
+        "quantidade": 5
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "clienteId": 3,
+    "data": "2026-09-02",
+    "status": "cancelado",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Suporte para notebook",
+        "preco": 74.9,
+        "quantidade": 2
+      },
+      {
+        "id": 2,
+        "titulo": "Mouse sem fio",
+        "preco": 59.9,
+        "quantidade": 1
+      },
+      {
+        "id": 3,
+        "titulo": "Camiseta personalizada",
+        "preco": 39.9,
+        "quantidade": 3
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "clienteId": 3,
+    "data": "2026-10-14",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Mouse sem fio",
+        "preco": 59.9,
+        "quantidade": 3
+      },
+      {
+        "id": 2,
+        "titulo": "Suporte para notebook",
+        "preco": 74.9,
+        "quantidade": 2
+      },
+      {
+        "id": 3,
+        "titulo": "Caderno universitário",
+        "preco": 18.9,
+        "quantidade": 3
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "clienteId": 4,
+    "data": "2026-10-06",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Caderno universitário",
+        "preco": 18.9,
+        "quantidade": 1
+      },
+      {
+        "id": 2,
+        "titulo": "Teclado mecânico",
+        "preco": 289.0,
+        "quantidade": 1
+      },
+      {
+        "id": 3,
+        "titulo": "Caneca de porcelana",
+        "preco": 24.5,
+        "quantidade": 2
+      },
+      {
+        "id": 4,
+        "titulo": "Mouse sem fio",
+        "preco": 59.9,
+        "quantidade": 5
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "clienteId": 4,
+    "data": "2026-10-14",
+    "status": "aberto",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Mouse sem fio",
+        "preco": 59.9,
+        "quantidade": 5
+      },
+      {
+        "id": 2,
+        "titulo": "Impressora multifuncional",
+        "preco": 679.0,
+        "quantidade": 2
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "clienteId": 4,
+    "data": "2026-09-02",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Impressora multifuncional",
+        "preco": 679.0,
+        "quantidade": 2
+      },
+      {
+        "id": 2,
+        "titulo": "Teclado mecânico",
+        "preco": 289.0,
+        "quantidade": 1
+      },
+      {
+        "id": 3,
+        "titulo": "Webcam Full HD",
+        "preco": 199.9,
+        "quantidade": 2
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "clienteId": 5,
+    "data": "2026-10-14",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Mouse sem fio",
+        "preco": 59.9,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "clienteId": 5,
+    "data": "2026-08-19",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Kit canetas coloridas",
+        "preco": 16.8,
+        "quantidade": 2
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "clienteId": 6,
+    "data": "2026-08-19",
+    "status": "aberto",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Kit canetas coloridas",
+        "preco": 16.8,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "clienteId": 6,
+    "data": "2026-09-28",
+    "status": "cancelado",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Caneca de porcelana",
+        "preco": 24.5,
+        "quantidade": 5
+      },
+      {
+        "id": 2,
+        "titulo": "Suporte para notebook",
+        "preco": 74.9,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "clienteId": 7,
+    "data": "2026-09-02",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Camiseta personalizada",
+        "preco": 39.9,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "clienteId": 7,
+    "data": "2026-10-14",
+    "status": "cancelado",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Caneca de porcelana",
+        "preco": 24.5,
+        "quantidade": 1
+      },
+      {
+        "id": 2,
+        "titulo": "Licença de software (anual)",
+        "preco": 349.0,
+        "quantidade": 2
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "clienteId": 8,
+    "data": "2026-08-04",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Impressora multifuncional",
+        "preco": 679.0,
+        "quantidade": 3
+      },
+      {
+        "id": 2,
+        "titulo": "Cadeira ergonômica",
+        "preco": 1199.0,
+        "quantidade": 2
+      },
+      {
+        "id": 3,
+        "titulo": "Cabo HDMI 2 m",
+        "preco": 22.0,
+        "quantidade": 1
+      },
+      {
+        "id": 4,
+        "titulo": "Mouse sem fio",
+        "preco": 59.9,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "clienteId": 8,
+    "data": "2026-10-06",
+    "status": "aberto",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Mouse sem fio",
+        "preco": 59.9,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "clienteId": 9,
+    "data": "2026-10-14",
+    "status": "aberto",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Resma de papel A4",
+        "preco": 31.5,
+        "quantidade": 2
+      },
+      {
+        "id": 2,
+        "titulo": "Cabo HDMI 2 m",
+        "preco": 22.0,
+        "quantidade": 5
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "clienteId": 9,
+    "data": "2026-09-28",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Cabo HDMI 2 m",
+        "preco": 22.0,
+        "quantidade": 2
+      },
+      {
+        "id": 2,
+        "titulo": "Teclado mecânico",
+        "preco": 289.0,
+        "quantidade": 1
+      },
+      {
+        "id": 3,
+        "titulo": "Monitor 24 polegadas",
+        "preco": 849.9,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "clienteId": 10,
+    "data": "2026-10-06",
+    "status": "aberto",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Teclado mecânico",
+        "preco": 289.0,
+        "quantidade": 1
+      },
+      {
+        "id": 2,
+        "titulo": "Licença de software (anual)",
+        "preco": 349.0,
+        "quantidade": 3
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "clienteId": 10,
+    "data": "2026-10-14",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Caderno universitário",
+        "preco": 18.9,
+        "quantidade": 5
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "clienteId": 11,
+    "data": "2026-10-14",
+    "status": "pago",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Suporte para notebook",
+        "preco": 74.9,
+        "quantidade": 1
+      },
+      {
+        "id": 2,
+        "titulo": "Caderno universitário",
+        "preco": 18.9,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "clienteId": 12,
+    "data": "2026-10-06",
+    "status": "cancelado",
+    "itens": [
+      {
+        "id": 1,
+        "titulo": "Teclado mecânico",
+        "preco": 289.0,
+        "quantidade": 3
+      },
+      {
+        "id": 2,
+        "titulo": "Cabo HDMI 2 m",
+        "preco": 22.0,
+        "quantidade": 1
+      },
+      {
+        "id": 3,
+        "titulo": "Camiseta personalizada",
+        "preco": 39.9,
+        "quantidade": 2
+      },
+      {
+        "id": 4,
+        "titulo": "Kit canetas coloridas",
+        "preco": 16.8,
+        "quantidade": 3
+      }
+    ]
+  }
+]

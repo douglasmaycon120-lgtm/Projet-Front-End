@@ -1,0 +1,15 @@
+{
+  "name": "servidor-crm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor da P2 de Lab Front 2026.2: grava em arquivos .json, sem banco de dados",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "reset": "node reset.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "clienteId": 1,
+    "titulo": "Pedido de segunda via de nota",
+    "texto": "Solicitou a segunda via da nota fiscal. Enviei por e-mail no mesmo dia.",
+    "canal": "email",
+    "data": "2026-10-21"
+  },
+  {
+    "id": 2,
+    "clienteId": 1,
+    "titulo": "Reclamação de produto",
+    "texto": "Produto chegou com a embalagem amassada. Combinamos a troca sem custo.",
+    "canal": "email",
+    "data": "2026-08-19"
+  },
+  {
+    "id": 3,
+    "clienteId": 1,
+    "titulo": "Confirmação de pagamento",
+    "texto": "Confirmou o pagamento por Pix. Liberei o pedido para separação.",
+    "canal": "email",
+    "data": "2026-09-02"
+  },
+  {
+    "id": 4,
+    "clienteId": 2,
+    "titulo": "Apresentação de proposta",
+    "texto": "Apresentei a proposta anual. Pediu um tempo para avaliar com o sócio.",
+    "canal": "whatsapp",
+    "data": "2026-08-04"
+  },
+  {
+    "id": 5,
+    "clienteId": 2,
+    "titulo": "Pedido de segunda via de nota",
+    "texto": "Solicitou a segunda via da nota fiscal. Enviei por e-mail no mesmo dia.",
+    "canal": "presencial",
+    "data": "2026-10-21"
+  },
+  {
+    "id": 6,
+    "clienteId": 3,
+    "titulo": "Pedido de segunda via de nota",
+    "texto": "Solicitou a segunda via da nota fiscal. Enviei por e-mail no mesmo dia.",
+    "canal": "telefone",
+    "data": "2026-09-28"
+  },
+  {
+    "id": 7,
+    "clienteId": 3,
+    "titulo": "Pedido de segunda via de nota",
+    "texto": "Solicitou a segunda via da nota fiscal. Enviei por e-mail no mesmo dia.",
+    "canal": "email",
+    "data": "2026-08-04"
+  },
+  {
+    "id": 8,
+    "clienteId": 4,
+    "titulo": "Pós-venda",
+    "texto": "Liguei para saber se está tudo certo com o equipamento. Cliente satisfeito.",
+    "canal": "presencial",
+    "data": "2026-10-21"
+  },
+  {
+    "id": 9,
+    "clienteId": 4,
+    "titulo": "Dúvida sobre prazo de entrega",
+    "texto": "Cliente perguntou quando o pedido chega. Informei o prazo de cinco dias úteis e enviei o código de rastreio.",
+    "canal": "presencial",
+    "data": "2026-10-21"
+  },
+  {
+    "id": 10,
+    "clienteId": 5,
+    "titulo": "Confirmação de pagamento",
+    "texto": "Confirmou o pagamento por Pix. Liberei o pedido para separação.",
+    "canal": "email",
+    "data": "2026-08-19"
+  },
+  {
+    "id": 11,
+    "clienteId": 5,
+    "titulo": "Dúvida sobre prazo de entrega",
+    "texto": "Cliente perguntou quando o pedido chega. Informei o prazo de cinco dias úteis e enviei o código de rastreio.",
+    "canal": "telefone",
+    "data": "2026-09-02"
+  },
+  {
+    "id": 12,
+    "clienteId": 6,
+    "titulo": "Cadastro atualizado",
+    "texto": "Atualizou telefone e endereço. Ajustei o cadastro.",
+    "canal": "email",
+    "data": "2026-08-19"
+  },
+  {
+    "id": 13,
+    "clienteId": 6,
+    "titulo": "Confirmação de pagamento",
+    "texto": "Confirmou o pagamento por Pix. Liberei o pedido para separação.",
+    "canal": "email",
+    "data": "2026-09-15"
+  },
+  {
+    "id": 14,
+    "clienteId": 7,
+    "titulo": "Dúvida sobre prazo de entrega",
+    "texto": "Cliente perguntou quando o pedido chega. Informei o prazo de cinco dias úteis e enviei o código de rastreio.",
+    "canal": "telefone",
+    "data": "2026-08-19"
+  },
+  {
+    "id": 15,
+    "clienteId": 7,
+    "titulo": "Negociação de desconto",
+    "texto": "Pediu desconto para compra em quantidade. Ficou de confirmar o fechamento até sexta.",
+    "canal": "whatsapp",
+    "data": "2026-09-28"
+  },
+  {
+    "id": 16,
+    "clienteId": 8,
+    "titulo": "Cadastro atualizado",
+    "texto": "Atualizou telefone e endereço. Ajustei o cadastro.",
+    "canal": "email",
+    "data": "2026-08-04"
+  },
+  {
+    "id": 17,
+    "clienteId": 9,
+    "titulo": "Confirmação de pagamento",
+    "texto": "Confirmou o pagamento por Pix. Liberei o pedido para separação.",
+    "canal": "whatsapp",
+    "data": "2026-09-28"
+  },
+  {
+    "id": 18,
+    "clienteId": 9,
+    "titulo": "Negociação de desconto",
+    "texto": "Pediu desconto para compra em quantidade. Ficou de confirmar o fechamento até sexta.",
+    "canal": "whatsapp",
+    "data": "2026-11-03"
+  },
+  {
+    "id": 19,
+    "clienteId": 9,
+    "titulo": "Pós-venda",
+    "texto": "Liguei para saber se está tudo certo com o equipamento. Cliente satisfeito.",
+    "canal": "email",
+    "data": "2026-09-02"
+  },
+  {
+    "id": 20,
+    "clienteId": 10,
+    "titulo": "Pós-venda",
+    "texto": "Liguei para saber se está tudo certo com o equipamento. Cliente satisfeito.",
+    "canal": "email",
+    "data": "2026-08-19"
+  },
+  {
+    "id": 21,
+    "clienteId": 11,
+    "titulo": "Apresentação de proposta",
+    "texto": "Apresentei a proposta anual. Pediu um tempo para avaliar com o sócio.",
+    "canal": "whatsapp",
+    "data": "2026-11-03"
+  },
+  {
+    "id": 22,
+    "clienteId": 12,
+    "titulo": "Pós-venda",
+    "texto": "Liguei para saber se está tudo certo com o equipamento. Cliente satisfeito.",
+    "canal": "email",
+    "data": "2026-10-14"
+  },
+  {
+    "id": 23,
+    "clienteId": 12,
+    "titulo": "Negociação de desconto",
+    "texto": "Pediu desconto para compra em quantidade. Ficou de confirmar o fechamento até sexta.",
+    "canal": "whatsapp",
+    "data": "2026-09-28"
+  }
+]

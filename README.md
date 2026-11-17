@@ -20,6 +20,27 @@ CRM responsivo para gestão de clientes, pedidos e histórico de atendimento. De
 
 Para alterar `.env`, reinicie o servidor de desenvolvimento. Login de teste: `emilys` / `emilyspass`.
 
+## Terminal da API
+
+Em um terminal:
+
+```bash
+cd servidor-crm
+npm install
+npm start
+```
+
+Deixe o servidor aberto em `http://localhost:3333`.
+
+## Terminal do frontend
+
+Em outro terminal, na raiz do projeto:
+
+```bash
+npm install
+npm run dev
+```
+
 ## Build de produção
 
 Execute `npm run build`. Os arquivos compilados serão gerados em `dist/`.

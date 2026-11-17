@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nome": "Marina Albuquerque",
+    "email": "marina.albuquerque@exemplo.com",
+    "telefone": "(22) 99811-2040",
+    "empresa": "Padaria Sol Nascente",
+    "cidade": "Saquarema"
+  },
+  {
+    "id": 2,
+    "nome": "Rafael Tavares",
+    "email": "rafael.tavares@exemplo.com",
+    "telefone": "(21) 98822-1177",
+    "empresa": "Tavares Informática",
+    "cidade": "Maricá"
+  },
+  {
+    "id": 3,
+    "nome": "Camila Duarte",
+    "email": "camila.duarte@exemplo.com",
+    "telefone": "(22) 99733-4521",
+    "empresa": "Studio Camila Duarte",
+    "cidade": "Araruama"
+  },
+  {
+    "id": 4,
+    "nome": "Bruno Figueiredo",
+    "email": "bruno.figueiredo@exemplo.com",
+    "telefone": "(21) 97744-3098",
+    "empresa": "Figueiredo Construções",
+    "cidade": "Niterói"
+  },
+  {
+    "id": 5,
+    "nome": "Helena Moreira",
+    "email": "helena.moreira@exemplo.com",
+    "telefone": "(22) 99655-8712",
+    "empresa": "Clínica Bem Viver",
+    "cidade": "Cabo Frio"
+  },
+  {
+    "id": 6,
+    "nome": "Lucas Pimentel",
+    "email": "lucas.pimentel@exemplo.com",
+    "telefone": "(21) 98566-0045",
+    "empresa": "Pimentel Auto Peças",
+    "cidade": "São Gonçalo"
+  },
+  {
+    "id": 7,
+    "nome": "Isabela Cardoso",
+    "email": "isabela.cardoso@exemplo.com",
+    "telefone": "(22) 99477-6633",
+    "empresa": "Boutique Isabela",
+    "cidade": "Saquarema"
+  },
+  {
+    "id": 8,
+    "nome": "Thiago Nascimento",
+    "email": "thiago.nascimento@exemplo.com",
+    "telefone": "(21) 97388-2290",
+    "empresa": "Nascimento & Filhos",
+    "cidade": "Maricá"
+  },
+  {
+    "id": 9,
+    "nome": "Patrícia Lacerda",
+    "email": "patricia.lacerda@exemplo.com",
+    "telefone": "(22) 99299-1184",
+    "empresa": "Lacerda Eventos",
+    "cidade": "Búzios"
+  },
+  {
+    "id": 10,
+    "nome": "Diego Fontes",
+    "email": "diego.fontes@exemplo.com",
+    "telefone": "(21) 98110-5527",
+    "empresa": "Fontes Delivery",
+    "cidade": "Rio de Janeiro"
+  },
+  {
+    "id": 11,
+    "nome": "Aline Barreto",
+    "email": "aline.barreto@exemplo.com",
+    "telefone": "(22) 99022-3901",
+    "empresa": "Barreto Papelaria",
+    "cidade": "Araruama"
+  },
+  {
+    "id": 12,
+    "nome": "Gustavo Rangel",
+    "email": "gustavo.rangel@exemplo.com",
+    "telefone": "(21) 97933-7716",
+    "empresa": "Rangel Academia",
+    "cidade": "Niterói"
+  }
+]
