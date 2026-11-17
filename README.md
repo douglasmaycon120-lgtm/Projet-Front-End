@@ -1,26 +1,17 @@
 # Nexo CRM
 
-CRM responsivo para gestão de clientes, pedidos e histórico de atendimento. Desenvolvido com Vite, React e TypeScript.
+CRM responsivo para gestão de clientes, pedidos e histórico de atendimento, desenvolvido com Vite, React e TypeScript.
 
-## Repositório
+## Repositório no GitHub
 
-**Link do GitHub:** [https://github.com/douglasmaycon120-lgtm/Projet-Front-End](https://github.com/douglasmaycon120-lgtm/Projet-Front-End)
+https://github.com/douglasmaycon120-lgtm/Projet-Front-End
 
 ## Requisitos
 
 - Node.js e npm
-- O servidor da disciplina (`servidor-crm`) iniciado em `http://localhost:3333`
+- Servidor local fornecido pela professora na pasta `servidor-crm`
 
-## Como executar
-
-1. Na pasta raiz deste projeto, instale as dependências: `npm install`.
-2. Confira o arquivo `.env` e configure `VITE_API_URL=http://localhost:3333`.
-3. Inicie o servidor local da disciplina em outro terminal.
-4. Execute `npm run dev` e abra a URL indicada pelo Vite.
-
-Para alterar `.env`, reinicie o servidor de desenvolvimento. Login de teste: `emilys` / `emilyspass`.
-
-## Terminal da API
+## 1. Inicie a API
 
 Em um terminal:
 
@@ -30,30 +21,62 @@ npm install
 npm start
 ```
 
-Deixe o servidor aberto em `http://localhost:3333`.
+A API ficará disponível em `http://localhost:3333`.
 
-## Terminal do frontend
+Conta de teste:
 
-Em outro terminal, na raiz do projeto:
+- Usuário: `emilys`
+- Senha: `emilyspass`
+
+## 2. Configure e execute o front-end
+
+A raiz do projeto possui o arquivo `.env`:
+
+```env
+VITE_API_URL=http://localhost:3333
+```
+
+Em outro terminal:
 
 ```bash
 npm install
 npm run dev
 ```
 
+Depois de alterar o `.env`, reinicie o Vite.
+
 ## Build de produção
 
-Execute `npm run build`. Os arquivos compilados serão gerados em `dist/`.
+```bash
+npm run build
+```
 
 ## Funcionalidades
 
-- Login com token, sessão persistida e retorno à rota solicitada após autenticação.
-- Painel com resumo de vendas, pedidos por status e clientes em destaque.
-- Busca e paginação de clientes, perfil, edição e exclusão com contagem de registros associados.
-- Pedidos com cálculo de total, edição dos itens e transições de status permitidas.
-- Histórico de atendimentos com filtros, edição e exclusão.
-- Tratamento de erros da API, indicadores de carregamento e layout adaptável a celular.
+- Login JWT, proteção de rotas e retorno à página solicitada.
+- Painel com clientes, vendas válidas, ticket médio, status, Top 3 e atalhos.
+- Lista de clientes com busca por nome/e-mail e paginação de 5 em 5.
+- Cadastro, edição, detalhe e exclusão de clientes com confirmação.
+- Validação de nome, e-mail e dois dados adicionais.
+- Pedidos com total calculado no front-end, criação, edição, status e exclusão.
+- Regras de status e edição apenas para pedidos abertos.
+- Histórico por canal, contador, criação, edição, exclusão e ordenação por data.
+- Filtros e ordenação de todos os pedidos.
+- Tratamento de 400, 401, 404, 409 e 500, além de estados de carregamento e vazio.
+- Layout responsivo sem rolagem lateral em celular.
+
+## Dados e cálculos
+
+Os cálculos de total de pedido, total comprado, selo VIP/Regular/Sem compras e Top 3 ficam em `src/utils.ts`. Pedidos cancelados não entram nas vendas, no ticket médio ou no Top 3.
+
+## Reset da API
+
+Para restaurar os dados de exemplo:
+
+1. Pare o servidor da API.
+2. Execute `npm run reset` dentro de `servidor-crm`.
+3. Inicie novamente com `npm start`.
 
 ## Entrega
 
-Gere o ZIP a partir desta pasta, excluindo `node_modules/` e `dist/`.
+O arquivo `nexo-crm.zip` deve ser enviado pelo AVA sem `node_modules`, `dist` ou `.git`.
